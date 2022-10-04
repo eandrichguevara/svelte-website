@@ -8,5 +8,24 @@
 	</head>
 	<body data-sveltekit-prefetch>
 		<div>%sveltekit.body%</div>
+		<script type="module">
+			// Import the functions you need from the SDKs you need
+			import { initializeApp } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-app.js";
+			// TODO: Add SDKs for Firebase products that you want to use
+			// https://firebase.google.com/docs/web/setup#available-libraries
+		  
+			// Your web app's Firebase configuration
+			const firebaseConfig = {
+			  apiKey: "AIzaSyBICRwlFEVWorpMISJIzg_ZflV-K1mKSQc",
+			  authDomain: "website-test-966c0.firebaseapp.com",
+			  projectId: "website-test-966c0",
+			  storageBucket: "website-test-966c0.appspot.com",
+			  messagingSenderId: "499479385221",
+			  appId: "1:499479385221:web:731be28b3fc68b802fc5ec"
+			};
+		  
+			// Initialize Firebase
+			const app = initializeApp(firebaseConfig);
+		  </script>
 	</body>
 </html>
